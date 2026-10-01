@@ -1,7 +1,7 @@
 """Operational state lives here; vector_search also persists the current job corpus."""
 from datetime import datetime, timezone
 from contextlib import asynccontextmanager
-from sqlalchemy import DateTime, Float, Integer, MetaData, String, text, select, delete
+from sqlalchemy import Float, Integer, MetaData, String, text
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 from .config import DB_URL

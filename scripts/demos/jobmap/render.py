@@ -1,6 +1,6 @@
 """Render the real browser capture with scene-aligned Charon narration."""
 from pathlib import Path
-import json,subprocess,hashlib,re,shutil
+import json,subprocess,hashlib,shutil
 root=Path(__file__).resolve().parents[3];work=root/'artifacts/jobmap-demo-work';dest=root/'artifacts/jobmap-demo';dest.mkdir(exist_ok=True)
 capture=json.loads((work/'capture.json').read_text());assert len(capture['marks'])==6 and not capture['errors']
 chapters=[];transcript=['Jobmap: finding work building AI agents','English AI narration: Gemini Charon',''];vtt=['WEBVTT',''];clock=0

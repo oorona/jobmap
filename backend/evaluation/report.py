@@ -140,7 +140,7 @@ def number(value,percent=False):
 def render(run,summary,directory):
     escape=html.escape
     rows=[]
-    for method,result in summary['methods'].items():
+    for result in summary['methods'].values():
         rows.append('<tr>'+''.join(f'<td>{escape(str(value))}</td>' for value in [result['name'],number(result['precision_at_5'],True),number(result['ndcg_at_10']),number(result['recall_at_10'],True),number(result['latency_p50_ms']),number(result['latency_p95_ms']),f"{result['successes']}/{result['attempts']}"] )+'</tr>')
     calibrated=''
     if run['track']=='controlled':

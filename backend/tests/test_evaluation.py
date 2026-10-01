@@ -2,7 +2,7 @@ import math
 import pytest
 from evaluation.dataset import controlled
 from evaluation.metrics import metrics,choose_threshold,paired_interval,quantile
-from evaluation.report import analyze,load_labels,blind,pool
+from evaluation.report import analyze,load_labels,blind
 from evaluation.bm25 import BM25
 
 
@@ -94,7 +94,7 @@ async def test_explicit_candidate_scoring_does_not_run_lexical_retrieval(monkeyp
 
 def test_report_renders_paired_comparisons_without_overwriting_method_name(tmp_path):
     from evaluation.report import render
-    data=controlled();query=data['queries'][0]
+    data=controlled()
     run={'run_id':'test','track':'controlled','dataset':data,'repeats':1,'models':{},'encoding_version':'test','methodology':{}}
     summary={'quality_status':'test','limitations':'test','corpus_jobs':72,'queries':48,'quality_queries':1,'run_complete':True,'dataset_hash':data['hash'],
              'methods':{'jev_pipeline':{'name':'Jev','precision_at_5':1,'ndcg_at_10':1,'recall_at_10':1,'latency_p50_ms':10,'latency_p95_ms':20,'successes':1,'attempts':1}},

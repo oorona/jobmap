@@ -132,7 +132,6 @@ class Feed:
         out['description_text']=str(data.get('description_text',''))[:50000]
         passages=[{**e,'text':e.get('text',e.get('quote'))} for e in data.get('evidence',[])[:150] if isinstance(e,dict)]
         out['evidence']=[e for e in passages if isinstance(e.get('text'),str) and isinstance(e.get('id'),str) and e.get('source_revision_id')==job.source_revision_id]
-        evidence_ids={e['id'] for e in out['evidence']}
         out['application_links']=[{'url':a['url'],'label':str(a.get('label','Apply'))[:200]} for a in data.get('application_links',[])[:20] if isinstance(a,dict) and safe_url(a.get('url'))]
         out['fields']={k:data.get(k) or {'status':'unknown','value':None,'evidence_ids':[]} for k in ('responsibilities','experience','education','location','time_zones','visa_sponsorship','work_authorization')}
         out['availability']='not_confirmed'

@@ -1,4 +1,3 @@
-import math
 import pytest
 from app import vector_search as vectors, comparison
 from app.fixtures import fixture_jobs

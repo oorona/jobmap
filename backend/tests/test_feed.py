@@ -81,7 +81,7 @@ async def test_contract_rejects_unapproved_unsafe_duplicate_and_future():
 
 @pytest.mark.asyncio
 async def test_active_refresh_does_not_block_valid_snapshot():
-    import asyncio,time
+    import asyncio
     feed=Feed('fixture');await feed.catalog()
     await feed.lock.acquire()
     try:
