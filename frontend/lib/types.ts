@@ -1,0 +1,11 @@
+export type Value = {status:'stated'|'inferred'|'unknown'|'conflicting';value:unknown;evidence_ids:string[]};
+export type Dimension = {label?: string|null; evidence_ids: string[]; score: number | null};
+export type Job = {id:string;advertisement_id:string;opportunity_id:string;company:{id:string;name:string};title:string;role_kind:'single_role'|'multiple_roles';skills:{id:string;label:string}[];work_mode:Value;location?:Value;eligible_countries:Value;compensation:Value;source_posted_at:string;expires_at:string;updated_at:string;search_text:string;dimensions:Record<string,Dimension>;source_revision_id:string;content_version:string;unknowns:string[];canonical_url:string;source_url:string};
+export type Evidence={id:string;source_revision_id:string;text:string;start:number;end:number};
+export type Detail=Job & {description_text:string;evidence:Evidence[];application_links:{url:string;label:string}[];fields:Record<string,Value>;availability:string};
+export type Refinement={available:boolean;reason:string;daily_limit:number;monthly_limit:number};
+export type Catalog={version:string;jobs:Job[];facets:string[];source_mode:'live'|'fixture';source_refreshed_at:string|null;stale:boolean;refinement:Refinement};
+export type Status=Omit<Catalog,'jobs'|'facets'> & {live_ids:string[]};
+export type Preferences={remote:boolean;country:string;weights:Record<string,number>};
+export type Market={months:{month:string;denominator:number;counts:Record<string,number>;percentages:Record<string,number>;in_progress:boolean;complete:boolean;retention_truncated?:boolean;coverage:{processed:number;total:number}}[];skills:string[];notice:string;record_scope:string};
+export type Refined={threshold?:number;method?:string;elapsed_ms?:number;clientQuery?:string;generation:number;catalog_version:string;available:boolean;reason?:string;results:{id:string;relevance:number;eligibility:string;evidence_ids:string[]}[]};

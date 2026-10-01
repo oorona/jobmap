@@ -1,0 +1,98 @@
+services:
+  jev-frontend:
+    build:
+      context: ./frontend
+      args:
+        SITE_URL: https://${PROJECT_HOST:?set PROJECT_HOST}
+    restart: unless-stopped
+    user: "${APP_UID:-1001}:${APP_GID:-1001}"
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 200
+    mem_limit: 512m
+    cpus: 1.0
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+      - /app/.next/cache:size=64m,uid=${APP_UID:-1001},gid=${APP_GID:-1001}
+    networks: [internet, intranet]
+    environment:
+      INTERNAL_API_URL: http://jev-backend:8000
+      SITE_URL: https://${PROJECT_HOST}
+      SOURCE_MODE: ${SOURCE_MODE:-live}
+    expose: ["3000"]
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:3000/health').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    depends_on:
+      jev-backend:
+        condition: service_healthy
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=internet
+      - traefik.http.routers.jev.rule=Host(`${PROJECT_HOST}`)
+      - traefik.http.routers.jev.entrypoints=websecure
+      - traefik.http.routers.jev.tls.certresolver=cloudflare
+      - traefik.http.services.jev.loadbalancer.server.port=3000
+  jev-backend:
+    build: ./backend
+    restart: unless-stopped
+    user: "${APP_UID:-1001}:${APP_GID:-1001}"
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 200
+    mem_limit: 512m
+    cpus: 1.0
+    tmpfs: ["/tmp:size=32m,mode=1777"]
+    networks: [intranet, dbnet]
+    expose: ["8000"]
+    environment:
+      PROJECT_HOST: ${PROJECT_HOST}
+      POSTGRES_HOST: postgres
+      SOURCE_MODE: ${SOURCE_MODE:-live}
+      MEXICODEV_API_URL: ${MEXICODEV_API_URL:-https://mexicodev.org/api/jobs/v1}
+      REFINEMENT_ENABLED: ${REFINEMENT_ENABLED:-false}
+      VECTOR_SEARCH_ENABLED: "true"
+      EMBEDDING_URL: http://jev-embeddings:8010
+    secrets: [db_password, typesafe_api_key, mexicodev_api_key]
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+  jev-embeddings:
+    build:
+      context: .
+      dockerfile: embeddings/Dockerfile
+    restart: unless-stopped
+    user: "${APP_UID:-1001}:${APP_GID:-1001}"
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 200
+    mem_limit: 1536m
+    cpus: 2.0
+    tmpfs: ["/tmp:size=128m,mode=1777"]
+    volumes: ["./data/embedding-models:/models"]
+    networks: [intranet]
+    expose: ["8010"]
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:8010/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 300s
+
+networks:
+  internet: {external: true}
+  intranet: {external: true}
+  dbnet: {external: true}
+secrets:
+  db_password: {file: ./secrets/db_password.txt}
+  typesafe_api_key: {file: ./secrets/typesafe_api_key.txt}
+  mexicodev_api_key: {file: ./secrets/mexicodev_api_key.txt}

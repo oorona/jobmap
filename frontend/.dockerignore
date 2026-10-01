@@ -1,0 +1,11 @@
+node_modules
+.next
+test-results
+playwright-report
+e2e
+fixtures
+*.tsbuildinfo
+
+**/*.test.ts
+vitest.config.ts
+playwright.config.ts

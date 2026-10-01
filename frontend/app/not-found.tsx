@@ -1,0 +1,1 @@
+export default function NotFound(){return <main className="public-job"><a href="/">← Back to discovery</a><h1>This job is no longer available.</h1><p>It may have expired or been removed from the source. Explore the current catalog for other opportunities.</p></main>;}

@@ -1,0 +1,8 @@
+[
+  {"id":"intro","text":"I built Jobmap to make Hacker News hiring posts easier to explore. MexicoDev supplies the cleaned postings. Each bubble is a role or a clearly labeled advertisement with multiple roles. Let's look for work building AI agents."},
+  {"id":"search","text":"I type, I want to build AI agents. Local search responds while I'm typing. After I pause, Jev judges the relevance of a shortlist and narrows the results. I'm asking for a kind of work, without guessing every job title an employer might use."},
+  {"id":"results","text":"Now I can explore the matching roles. The colors show broad skill groups, and the guide explains them. Hovering reveals the role and company. Connections point to shared skills or the same employer. The list below gives me another way to browse."},
+  {"id":"evidence","text":"Agent Builder looks worth a closer look. I open the posting and inspect the actual source text. The details show what the employer stated and what remains unknown. The evidence excerpts let me check those interpretations. A published advertisement does not confirm that the position is still open."},
+  {"id":"filters","text":"I can narrow the results further with simple filters. Here I choose remote work. Location and salary filters are available too. These controls run locally and make no extra Jev calls. For salary, the currency and pay period stay separate so the numbers remain meaningful."},
+  {"id":"costs","text":"Usage and costs has its own view. It shows today's and this month's spending, remaining budgets, and any pending reservations. That lets me see what the model calls cost. Bookmarks and saved searches stay on the device. This recording used the live application throughout."}
+]

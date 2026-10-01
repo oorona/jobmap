@@ -1,0 +1,4930 @@
+[
+  {
+    "id": "demo_001",
+    "advertisement_id": "ad_demo_001",
+    "opportunity_id": "opp_demo_001",
+    "company": {
+      "id": "company_0",
+      "name": "Northstar Labs"
+    },
+    "title": "Platform engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-30T00:00:00+00:00",
+    "expires_at": "2026-11-29T00:00:00+00:00",
+    "updated_at": "2026-09-30T00:00:00+00:00",
+    "source_revision_id": "rev_demo_001",
+    "content_version": "rev_demo_001",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "postgresql",
+        "label": "Postgresql"
+      },
+      {
+        "id": "kubernetes",
+        "label": "Kubernetes"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_001_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "MX",
+        "US"
+      ],
+      "evidence_ids": [
+        "rev_demo_001_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Northstar Labs | Platform engineer | remote. Build the deployment platform used by our engineering teams. You own design decisions and reliability. Eligible countries: MX, US. python postgresql kubernetes",
+    "dimensions": {
+      "ownership": {
+        "score": 0.94,
+        "label": "Stated ownership",
+        "evidence_ids": [
+          "rev_demo_001_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_001",
+    "source_url": "https://example.com/source/demo_001",
+    "description_text": "Northstar Labs | Platform engineer | remote. Build the deployment platform used by our engineering teams. You own design decisions and reliability. Eligible countries: MX, US.",
+    "evidence": [
+      {
+        "id": "rev_demo_001_p0",
+        "source_revision_id": "rev_demo_001",
+        "text": "Northstar Labs | Platform engineer | remote. Build the deployment platform used by our engineering teams. You own design decisions and reliability. Eligible countries: MX, US.",
+        "start": 0,
+        "end": 175
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_001",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_001_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build the deployment platform used by our engineering teams. You own design decisions and reliability.",
+      "evidence_ids": [
+        "rev_demo_001_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_002",
+    "advertisement_id": "ad_demo_002",
+    "opportunity_id": "opp_demo_002",
+    "company": {
+      "id": "company_1",
+      "name": "Fieldwork"
+    },
+    "title": "Frontend engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-29T00:00:00+00:00",
+    "expires_at": "2026-11-28T00:00:00+00:00",
+    "updated_at": "2026-09-29T00:00:00+00:00",
+    "source_revision_id": "rev_demo_002",
+    "content_version": "rev_demo_002",
+    "skills": [
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      },
+      {
+        "id": "react",
+        "label": "React"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_002_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "DE"
+      ],
+      "evidence_ids": [
+        "rev_demo_002_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Fieldwork | Frontend engineer | remote. Build accessible tools for field scientists. Pair with senior engineers through weekly mentorship. Eligible countries: DE. typescript react",
+    "dimensions": {
+      "learning": {
+        "score": 0.94,
+        "label": "Learning support",
+        "evidence_ids": [
+          "rev_demo_002_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_002",
+    "source_url": "https://example.com/source/demo_002",
+    "description_text": "Fieldwork | Frontend engineer | remote. Build accessible tools for field scientists. Pair with senior engineers through weekly mentorship. Eligible countries: DE.",
+    "evidence": [
+      {
+        "id": "rev_demo_002_p0",
+        "source_revision_id": "rev_demo_002",
+        "text": "Fieldwork | Frontend engineer | remote. Build accessible tools for field scientists. Pair with senior engineers through weekly mentorship. Eligible countries: DE.",
+        "start": 0,
+        "end": 162
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_002",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_002_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build accessible tools for field scientists. Pair with senior engineers through weekly mentorship.",
+      "evidence_ids": [
+        "rev_demo_002_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_003",
+    "advertisement_id": "ad_demo_003",
+    "opportunity_id": "opp_demo_003",
+    "company": {
+      "id": "company_2",
+      "name": "Juniper Systems"
+    },
+    "title": "Backend engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-28T00:00:00+00:00",
+    "expires_at": "2026-11-27T00:00:00+00:00",
+    "updated_at": "2026-09-28T00:00:00+00:00",
+    "source_revision_id": "rev_demo_003",
+    "content_version": "rev_demo_003",
+    "skills": [
+      {
+        "id": "rust",
+        "label": "Rust"
+      },
+      {
+        "id": "postgresql",
+        "label": "Postgresql"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "hybrid",
+      "evidence_ids": [
+        "rev_demo_003_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "compensation": {
+      "status": "stated",
+      "value": {
+        "original": "Design reliable event processing. Salary: $140,000 to $180,000 USD per year."
+      },
+      "evidence_ids": [
+        "rev_demo_003_p0"
+      ]
+    },
+    "search_text": "Juniper Systems | Backend engineer | hybrid. Design reliable event processing. Salary: $140,000 to $180,000 USD per year. Country eligibility is not stated. rust postgresql",
+    "dimensions": {
+      "transparency": {
+        "score": 0.94,
+        "label": "Compensation disclosed",
+        "evidence_ids": [
+          "rev_demo_003_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization",
+      "eligible_countries"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_003",
+    "source_url": "https://example.com/source/demo_003",
+    "description_text": "Juniper Systems | Backend engineer | hybrid. Design reliable event processing. Salary: $140,000 to $180,000 USD per year. Country eligibility is not stated.",
+    "evidence": [
+      {
+        "id": "rev_demo_003_p0",
+        "source_revision_id": "rev_demo_003",
+        "text": "Juniper Systems | Backend engineer | hybrid. Design reliable event processing. Salary: $140,000 to $180,000 USD per year. Country eligibility is not stated.",
+        "start": 0,
+        "end": 156
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_003",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_003_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Design reliable event processing. Salary: $140,000 to $180,000 USD per year.",
+      "evidence_ids": [
+        "rev_demo_003_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_004",
+    "advertisement_id": "ad_demo_004",
+    "opportunity_id": "opp_demo_004",
+    "company": {
+      "id": "company_3",
+      "name": "Tidal Research"
+    },
+    "title": "ML engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-27T00:00:00+00:00",
+    "expires_at": "2026-11-26T00:00:00+00:00",
+    "updated_at": "2026-09-27T00:00:00+00:00",
+    "source_revision_id": "rev_demo_004",
+    "content_version": "rev_demo_004",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "machine-learning",
+        "label": "Machine Learning"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_004_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "MX",
+        "US"
+      ],
+      "evidence_ids": [
+        "rev_demo_004_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Tidal Research | ML engineer | remote. Develop models for coastal forecasting. We welcome equivalent experience from adjacent disciplines. Eligible countries: MX, US. python machine-learning",
+    "dimensions": {
+      "adjacent": {
+        "score": 0.94,
+        "label": "Adjacent experience welcome",
+        "evidence_ids": [
+          "rev_demo_004_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_004",
+    "source_url": "https://example.com/source/demo_004",
+    "description_text": "Tidal Research | ML engineer | remote. Develop models for coastal forecasting. We welcome equivalent experience from adjacent disciplines. Eligible countries: MX, US.",
+    "evidence": [
+      {
+        "id": "rev_demo_004_p0",
+        "source_revision_id": "rev_demo_004",
+        "text": "Tidal Research | ML engineer | remote. Develop models for coastal forecasting. We welcome equivalent experience from adjacent disciplines. Eligible countries: MX, US.",
+        "start": 0,
+        "end": 166
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_004",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_004_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Develop models for coastal forecasting. We welcome equivalent experience from adjacent disciplines.",
+      "evidence_ids": [
+        "rev_demo_004_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_005",
+    "advertisement_id": "ad_demo_005",
+    "opportunity_id": "opp_demo_005",
+    "company": {
+      "id": "company_4",
+      "name": "Common Ground"
+    },
+    "title": "Full stack developer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-26T00:00:00+00:00",
+    "expires_at": "2026-11-25T00:00:00+00:00",
+    "updated_at": "2026-09-26T00:00:00+00:00",
+    "source_revision_id": "rev_demo_005",
+    "content_version": "rev_demo_005",
+    "skills": [
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      },
+      {
+        "id": "react",
+        "label": "React"
+      },
+      {
+        "id": "postgresql",
+        "label": "Postgresql"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_005_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "DE"
+      ],
+      "evidence_ids": [
+        "rev_demo_005_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Common Ground | Full stack developer | remote. Build community scheduling tools. Flexible hours and 30 days paid leave. Eligible countries: DE. typescript react postgresql",
+    "dimensions": {
+      "conditions": {
+        "score": 0.94,
+        "label": "Stated working conditions",
+        "evidence_ids": [
+          "rev_demo_005_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_005",
+    "source_url": "https://example.com/source/demo_005",
+    "description_text": "Common Ground | Full stack developer | remote. Build community scheduling tools. Flexible hours and 30 days paid leave. Eligible countries: DE.",
+    "evidence": [
+      {
+        "id": "rev_demo_005_p0",
+        "source_revision_id": "rev_demo_005",
+        "text": "Common Ground | Full stack developer | remote. Build community scheduling tools. Flexible hours and 30 days paid leave. Eligible countries: DE.",
+        "start": 0,
+        "end": 143
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_005",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_005_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build community scheduling tools. Flexible hours and 30 days paid leave.",
+      "evidence_ids": [
+        "rev_demo_005_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_006",
+    "advertisement_id": "ad_demo_006",
+    "opportunity_id": "opp_demo_006",
+    "company": {
+      "id": "company_5",
+      "name": "Orbit Tools"
+    },
+    "title": "Developer experience engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-25T00:00:00+00:00",
+    "expires_at": "2026-11-24T00:00:00+00:00",
+    "updated_at": "2026-09-25T00:00:00+00:00",
+    "source_revision_id": "rev_demo_006",
+    "content_version": "rev_demo_006",
+    "skills": [
+      {
+        "id": "go",
+        "label": "Go"
+      },
+      {
+        "id": "kubernetes",
+        "label": "Kubernetes"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "onsite",
+      "evidence_ids": [
+        "rev_demo_006_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Orbit Tools | Developer experience engineer | onsite. Own our build systems and improve developer workflows in our Austin office. Country eligibility is not stated. go kubernetes",
+    "dimensions": {
+      "ownership": {
+        "score": 0.94,
+        "label": "Stated ownership",
+        "evidence_ids": [
+          "rev_demo_006_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization",
+      "eligible_countries"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_006",
+    "source_url": "https://example.com/source/demo_006",
+    "description_text": "Orbit Tools | Developer experience engineer | onsite. Own our build systems and improve developer workflows in our Austin office. Country eligibility is not stated.",
+    "evidence": [
+      {
+        "id": "rev_demo_006_p0",
+        "source_revision_id": "rev_demo_006",
+        "text": "Orbit Tools | Developer experience engineer | onsite. Own our build systems and improve developer workflows in our Austin office. Country eligibility is not stated.",
+        "start": 0,
+        "end": 164
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_006",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_006_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Own our build systems and improve developer workflows in our Austin office.",
+      "evidence_ids": [
+        "rev_demo_006_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_007",
+    "advertisement_id": "ad_demo_007",
+    "opportunity_id": "opp_demo_007",
+    "company": {
+      "id": "company_6",
+      "name": "Moss Studio"
+    },
+    "title": "Product engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-24T00:00:00+00:00",
+    "expires_at": "2026-11-23T00:00:00+00:00",
+    "updated_at": "2026-09-24T00:00:00+00:00",
+    "source_revision_id": "rev_demo_007",
+    "content_version": "rev_demo_007",
+    "skills": [
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      },
+      {
+        "id": "react",
+        "label": "React"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_007_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "MX",
+        "US"
+      ],
+      "evidence_ids": [
+        "rev_demo_007_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Moss Studio | Product engineer | remote. Ship tools for independent creators. You will design, build, and maintain our editor. Eligible countries: MX, US. typescript react",
+    "dimensions": {
+      "specificity": {
+        "score": 0.94,
+        "label": "Specific responsibilities",
+        "evidence_ids": [
+          "rev_demo_007_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_007",
+    "source_url": "https://example.com/source/demo_007",
+    "description_text": "Moss Studio | Product engineer | remote. Ship tools for independent creators. You will design, build, and maintain our editor. Eligible countries: MX, US.",
+    "evidence": [
+      {
+        "id": "rev_demo_007_p0",
+        "source_revision_id": "rev_demo_007",
+        "text": "Moss Studio | Product engineer | remote. Ship tools for independent creators. You will design, build, and maintain our editor. Eligible countries: MX, US.",
+        "start": 0,
+        "end": 154
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_007",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_007_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Ship tools for independent creators. You will design, build, and maintain our editor.",
+      "evidence_ids": [
+        "rev_demo_007_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_008",
+    "advertisement_id": "ad_demo_008",
+    "opportunity_id": "opp_demo_008",
+    "company": {
+      "id": "company_7",
+      "name": "Signal Foundry"
+    },
+    "title": "Data engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-23T00:00:00+00:00",
+    "expires_at": "2026-11-22T00:00:00+00:00",
+    "updated_at": "2026-09-23T00:00:00+00:00",
+    "source_revision_id": "rev_demo_008",
+    "content_version": "rev_demo_008",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "sql",
+        "label": "Sql"
+      },
+      {
+        "id": "aws",
+        "label": "Aws"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_008_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "DE"
+      ],
+      "evidence_ids": [
+        "rev_demo_008_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Signal Foundry | Data engineer | remote. Build warehouse pipelines with clear data contracts. Learning budget and regular mentoring. Eligible countries: DE. python sql aws",
+    "dimensions": {
+      "learning": {
+        "score": 0.94,
+        "label": "Learning support",
+        "evidence_ids": [
+          "rev_demo_008_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_008",
+    "source_url": "https://example.com/source/demo_008",
+    "description_text": "Signal Foundry | Data engineer | remote. Build warehouse pipelines with clear data contracts. Learning budget and regular mentoring. Eligible countries: DE.",
+    "evidence": [
+      {
+        "id": "rev_demo_008_p0",
+        "source_revision_id": "rev_demo_008",
+        "text": "Signal Foundry | Data engineer | remote. Build warehouse pipelines with clear data contracts. Learning budget and regular mentoring. Eligible countries: DE.",
+        "start": 0,
+        "end": 156
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_008",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_008_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build warehouse pipelines with clear data contracts. Learning budget and regular mentoring.",
+      "evidence_ids": [
+        "rev_demo_008_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_009",
+    "advertisement_id": "ad_demo_009",
+    "opportunity_id": "opp_demo_009",
+    "company": {
+      "id": "company_8",
+      "name": "Cedar Health"
+    },
+    "title": "Multiple roles",
+    "role_kind": "multiple_roles",
+    "source_posted_at": "2026-09-22T00:00:00+00:00",
+    "expires_at": "2026-11-21T00:00:00+00:00",
+    "updated_at": "2026-09-22T00:00:00+00:00",
+    "source_revision_id": "rev_demo_009",
+    "content_version": "rev_demo_009",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      },
+      {
+        "id": "react",
+        "label": "React"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "hybrid",
+      "evidence_ids": [
+        "rev_demo_009_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Cedar Health | Multiple roles | hybrid. Hiring software and data engineers. Shared healthcare platform team; individual requirements vary. Country eligibility is not stated. python typescript react",
+    "dimensions": {
+      "specificity": {
+        "score": 0.94,
+        "label": "Specific responsibilities",
+        "evidence_ids": [
+          "rev_demo_009_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization",
+      "eligible_countries"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_009",
+    "source_url": "https://example.com/source/demo_009",
+    "description_text": "Cedar Health | Multiple roles | hybrid. Hiring software and data engineers. Shared healthcare platform team; individual requirements vary. Country eligibility is not stated.",
+    "evidence": [
+      {
+        "id": "rev_demo_009_p0",
+        "source_revision_id": "rev_demo_009",
+        "text": "Cedar Health | Multiple roles | hybrid. Hiring software and data engineers. Shared healthcare platform team; individual requirements vary. Country eligibility is not stated.",
+        "start": 0,
+        "end": 173
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_009",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_009_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Hiring software and data engineers. Shared healthcare platform team; individual requirements vary.",
+      "evidence_ids": [
+        "rev_demo_009_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_010",
+    "advertisement_id": "ad_demo_010",
+    "opportunity_id": "opp_demo_010",
+    "company": {
+      "id": "company_9",
+      "name": "Copper Cloud"
+    },
+    "title": "Infrastructure engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-21T00:00:00+00:00",
+    "expires_at": "2026-11-20T00:00:00+00:00",
+    "updated_at": "2026-09-21T00:00:00+00:00",
+    "source_revision_id": "rev_demo_010",
+    "content_version": "rev_demo_010",
+    "skills": [
+      {
+        "id": "go",
+        "label": "Go"
+      },
+      {
+        "id": "aws",
+        "label": "Aws"
+      },
+      {
+        "id": "kubernetes",
+        "label": "Kubernetes"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_010_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "MX",
+        "US"
+      ],
+      "evidence_ids": [
+        "rev_demo_010_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Copper Cloud | Infrastructure engineer | remote. Operate a distributed storage service. Four-day week and flexible hours. Eligible countries: MX, US. go aws kubernetes",
+    "dimensions": {
+      "conditions": {
+        "score": 0.94,
+        "label": "Stated working conditions",
+        "evidence_ids": [
+          "rev_demo_010_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_010",
+    "source_url": "https://example.com/source/demo_010",
+    "description_text": "Copper Cloud | Infrastructure engineer | remote. Operate a distributed storage service. Four-day week and flexible hours. Eligible countries: MX, US.",
+    "evidence": [
+      {
+        "id": "rev_demo_010_p0",
+        "source_revision_id": "rev_demo_010",
+        "text": "Copper Cloud | Infrastructure engineer | remote. Operate a distributed storage service. Four-day week and flexible hours. Eligible countries: MX, US.",
+        "start": 0,
+        "end": 149
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_010",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_010_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Operate a distributed storage service. Four-day week and flexible hours.",
+      "evidence_ids": [
+        "rev_demo_010_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_011",
+    "advertisement_id": "ad_demo_011",
+    "opportunity_id": "opp_demo_011",
+    "company": {
+      "id": "company_10",
+      "name": "Lantern Maps"
+    },
+    "title": "Mobile engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-20T00:00:00+00:00",
+    "expires_at": "2026-11-19T00:00:00+00:00",
+    "updated_at": "2026-09-20T00:00:00+00:00",
+    "source_revision_id": "rev_demo_011",
+    "content_version": "rev_demo_011",
+    "skills": [
+      {
+        "id": "swift",
+        "label": "Swift"
+      },
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "onsite",
+      "evidence_ids": [
+        "rev_demo_011_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "DE"
+      ],
+      "evidence_ids": [
+        "rev_demo_011_p0"
+      ]
+    },
+    "compensation": {
+      "status": "stated",
+      "value": {
+        "original": "Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year."
+      },
+      "evidence_ids": [
+        "rev_demo_011_p0"
+      ]
+    },
+    "search_text": "Lantern Maps | Mobile engineer | onsite. Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year. Eligible countries: DE. swift typescript",
+    "dimensions": {
+      "transparency": {
+        "score": 0.94,
+        "label": "Compensation disclosed",
+        "evidence_ids": [
+          "rev_demo_011_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_011",
+    "source_url": "https://example.com/source/demo_011",
+    "description_text": "Lantern Maps | Mobile engineer | onsite. Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year. Eligible countries: DE.",
+    "evidence": [
+      {
+        "id": "rev_demo_011_p0",
+        "source_revision_id": "rev_demo_011",
+        "text": "Lantern Maps | Mobile engineer | onsite. Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year. Eligible countries: DE.",
+        "start": 0,
+        "end": 160
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_011",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_011_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year.",
+      "evidence_ids": [
+        "rev_demo_011_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_012",
+    "advertisement_id": "ad_demo_012",
+    "opportunity_id": "opp_demo_012",
+    "company": {
+      "id": "company_11",
+      "name": "Paperplane"
+    },
+    "title": "Backend developer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-19T00:00:00+00:00",
+    "expires_at": "2026-11-18T00:00:00+00:00",
+    "updated_at": "2026-09-19T00:00:00+00:00",
+    "source_revision_id": "rev_demo_012",
+    "content_version": "rev_demo_012",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "postgresql",
+        "label": "Postgresql"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_012_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Paperplane | Backend developer | remote. Build document collaboration APIs. Equivalent experience and career transitions are welcome. Country eligibility is not stated. python postgresql",
+    "dimensions": {
+      "adjacent": {
+        "score": 0.94,
+        "label": "Adjacent experience welcome",
+        "evidence_ids": [
+          "rev_demo_012_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization",
+      "eligible_countries"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_012",
+    "source_url": "https://example.com/source/demo_012",
+    "description_text": "Paperplane | Backend developer | remote. Build document collaboration APIs. Equivalent experience and career transitions are welcome. Country eligibility is not stated.",
+    "evidence": [
+      {
+        "id": "rev_demo_012_p0",
+        "source_revision_id": "rev_demo_012",
+        "text": "Paperplane | Backend developer | remote. Build document collaboration APIs. Equivalent experience and career transitions are welcome. Country eligibility is not stated.",
+        "start": 0,
+        "end": 168
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_012",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_012_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build document collaboration APIs. Equivalent experience and career transitions are welcome.",
+      "evidence_ids": [
+        "rev_demo_012_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_013",
+    "advertisement_id": "ad_demo_013",
+    "opportunity_id": "opp_demo_013",
+    "company": {
+      "id": "company_0",
+      "name": "Northstar Labs"
+    },
+    "title": "Platform engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-18T00:00:00+00:00",
+    "expires_at": "2026-11-17T00:00:00+00:00",
+    "updated_at": "2026-09-18T00:00:00+00:00",
+    "source_revision_id": "rev_demo_013",
+    "content_version": "rev_demo_013",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "postgresql",
+        "label": "Postgresql"
+      },
+      {
+        "id": "kubernetes",
+        "label": "Kubernetes"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_013_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "MX",
+        "US"
+      ],
+      "evidence_ids": [
+        "rev_demo_013_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Northstar Labs | Platform engineer | remote. Build the deployment platform used by our engineering teams. You own design decisions and reliability. Eligible countries: MX, US. python postgresql kubernetes",
+    "dimensions": {
+      "ownership": {
+        "score": 0.94,
+        "label": "Stated ownership",
+        "evidence_ids": [
+          "rev_demo_013_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_013",
+    "source_url": "https://example.com/source/demo_013",
+    "description_text": "Northstar Labs | Platform engineer | remote. Build the deployment platform used by our engineering teams. You own design decisions and reliability. Eligible countries: MX, US.",
+    "evidence": [
+      {
+        "id": "rev_demo_013_p0",
+        "source_revision_id": "rev_demo_013",
+        "text": "Northstar Labs | Platform engineer | remote. Build the deployment platform used by our engineering teams. You own design decisions and reliability. Eligible countries: MX, US.",
+        "start": 0,
+        "end": 175
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_013",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_013_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build the deployment platform used by our engineering teams. You own design decisions and reliability.",
+      "evidence_ids": [
+        "rev_demo_013_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_014",
+    "advertisement_id": "ad_demo_014",
+    "opportunity_id": "opp_demo_014",
+    "company": {
+      "id": "company_1",
+      "name": "Fieldwork"
+    },
+    "title": "Frontend engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-17T00:00:00+00:00",
+    "expires_at": "2026-11-16T00:00:00+00:00",
+    "updated_at": "2026-09-17T00:00:00+00:00",
+    "source_revision_id": "rev_demo_014",
+    "content_version": "rev_demo_014",
+    "skills": [
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      },
+      {
+        "id": "react",
+        "label": "React"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_014_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "DE"
+      ],
+      "evidence_ids": [
+        "rev_demo_014_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Fieldwork | Frontend engineer | remote. Build accessible tools for field scientists. Pair with senior engineers through weekly mentorship. Eligible countries: DE. typescript react",
+    "dimensions": {
+      "learning": {
+        "score": 0.94,
+        "label": "Learning support",
+        "evidence_ids": [
+          "rev_demo_014_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_014",
+    "source_url": "https://example.com/source/demo_014",
+    "description_text": "Fieldwork | Frontend engineer | remote. Build accessible tools for field scientists. Pair with senior engineers through weekly mentorship. Eligible countries: DE.",
+    "evidence": [
+      {
+        "id": "rev_demo_014_p0",
+        "source_revision_id": "rev_demo_014",
+        "text": "Fieldwork | Frontend engineer | remote. Build accessible tools for field scientists. Pair with senior engineers through weekly mentorship. Eligible countries: DE.",
+        "start": 0,
+        "end": 162
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_014",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_014_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build accessible tools for field scientists. Pair with senior engineers through weekly mentorship.",
+      "evidence_ids": [
+        "rev_demo_014_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_015",
+    "advertisement_id": "ad_demo_015",
+    "opportunity_id": "opp_demo_015",
+    "company": {
+      "id": "company_2",
+      "name": "Juniper Systems"
+    },
+    "title": "Backend engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-16T00:00:00+00:00",
+    "expires_at": "2026-11-15T00:00:00+00:00",
+    "updated_at": "2026-09-16T00:00:00+00:00",
+    "source_revision_id": "rev_demo_015",
+    "content_version": "rev_demo_015",
+    "skills": [
+      {
+        "id": "rust",
+        "label": "Rust"
+      },
+      {
+        "id": "postgresql",
+        "label": "Postgresql"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "hybrid",
+      "evidence_ids": [
+        "rev_demo_015_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "compensation": {
+      "status": "stated",
+      "value": {
+        "original": "Design reliable event processing. Salary: $140,000 to $180,000 USD per year."
+      },
+      "evidence_ids": [
+        "rev_demo_015_p0"
+      ]
+    },
+    "search_text": "Juniper Systems | Backend engineer | hybrid. Design reliable event processing. Salary: $140,000 to $180,000 USD per year. Country eligibility is not stated. rust postgresql",
+    "dimensions": {
+      "transparency": {
+        "score": 0.94,
+        "label": "Compensation disclosed",
+        "evidence_ids": [
+          "rev_demo_015_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization",
+      "eligible_countries"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_015",
+    "source_url": "https://example.com/source/demo_015",
+    "description_text": "Juniper Systems | Backend engineer | hybrid. Design reliable event processing. Salary: $140,000 to $180,000 USD per year. Country eligibility is not stated.",
+    "evidence": [
+      {
+        "id": "rev_demo_015_p0",
+        "source_revision_id": "rev_demo_015",
+        "text": "Juniper Systems | Backend engineer | hybrid. Design reliable event processing. Salary: $140,000 to $180,000 USD per year. Country eligibility is not stated.",
+        "start": 0,
+        "end": 156
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_015",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_015_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Design reliable event processing. Salary: $140,000 to $180,000 USD per year.",
+      "evidence_ids": [
+        "rev_demo_015_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_016",
+    "advertisement_id": "ad_demo_016",
+    "opportunity_id": "opp_demo_016",
+    "company": {
+      "id": "company_3",
+      "name": "Tidal Research"
+    },
+    "title": "ML engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-15T00:00:00+00:00",
+    "expires_at": "2026-11-14T00:00:00+00:00",
+    "updated_at": "2026-09-15T00:00:00+00:00",
+    "source_revision_id": "rev_demo_016",
+    "content_version": "rev_demo_016",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "machine-learning",
+        "label": "Machine Learning"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_016_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "MX",
+        "US"
+      ],
+      "evidence_ids": [
+        "rev_demo_016_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Tidal Research | ML engineer | remote. Develop models for coastal forecasting. We welcome equivalent experience from adjacent disciplines. Eligible countries: MX, US. python machine-learning",
+    "dimensions": {
+      "adjacent": {
+        "score": 0.94,
+        "label": "Adjacent experience welcome",
+        "evidence_ids": [
+          "rev_demo_016_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_016",
+    "source_url": "https://example.com/source/demo_016",
+    "description_text": "Tidal Research | ML engineer | remote. Develop models for coastal forecasting. We welcome equivalent experience from adjacent disciplines. Eligible countries: MX, US.",
+    "evidence": [
+      {
+        "id": "rev_demo_016_p0",
+        "source_revision_id": "rev_demo_016",
+        "text": "Tidal Research | ML engineer | remote. Develop models for coastal forecasting. We welcome equivalent experience from adjacent disciplines. Eligible countries: MX, US.",
+        "start": 0,
+        "end": 166
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_016",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_016_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Develop models for coastal forecasting. We welcome equivalent experience from adjacent disciplines.",
+      "evidence_ids": [
+        "rev_demo_016_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_017",
+    "advertisement_id": "ad_demo_017",
+    "opportunity_id": "opp_demo_017",
+    "company": {
+      "id": "company_4",
+      "name": "Common Ground"
+    },
+    "title": "Full stack developer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-14T00:00:00+00:00",
+    "expires_at": "2026-11-13T00:00:00+00:00",
+    "updated_at": "2026-09-14T00:00:00+00:00",
+    "source_revision_id": "rev_demo_017",
+    "content_version": "rev_demo_017",
+    "skills": [
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      },
+      {
+        "id": "react",
+        "label": "React"
+      },
+      {
+        "id": "postgresql",
+        "label": "Postgresql"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_017_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "DE"
+      ],
+      "evidence_ids": [
+        "rev_demo_017_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Common Ground | Full stack developer | remote. Build community scheduling tools. Flexible hours and 30 days paid leave. Eligible countries: DE. typescript react postgresql",
+    "dimensions": {
+      "conditions": {
+        "score": 0.94,
+        "label": "Stated working conditions",
+        "evidence_ids": [
+          "rev_demo_017_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_017",
+    "source_url": "https://example.com/source/demo_017",
+    "description_text": "Common Ground | Full stack developer | remote. Build community scheduling tools. Flexible hours and 30 days paid leave. Eligible countries: DE.",
+    "evidence": [
+      {
+        "id": "rev_demo_017_p0",
+        "source_revision_id": "rev_demo_017",
+        "text": "Common Ground | Full stack developer | remote. Build community scheduling tools. Flexible hours and 30 days paid leave. Eligible countries: DE.",
+        "start": 0,
+        "end": 143
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_017",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_017_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build community scheduling tools. Flexible hours and 30 days paid leave.",
+      "evidence_ids": [
+        "rev_demo_017_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_018",
+    "advertisement_id": "ad_demo_018",
+    "opportunity_id": "opp_demo_018",
+    "company": {
+      "id": "company_5",
+      "name": "Orbit Tools"
+    },
+    "title": "Developer experience engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-13T00:00:00+00:00",
+    "expires_at": "2026-11-12T00:00:00+00:00",
+    "updated_at": "2026-09-13T00:00:00+00:00",
+    "source_revision_id": "rev_demo_018",
+    "content_version": "rev_demo_018",
+    "skills": [
+      {
+        "id": "go",
+        "label": "Go"
+      },
+      {
+        "id": "kubernetes",
+        "label": "Kubernetes"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "onsite",
+      "evidence_ids": [
+        "rev_demo_018_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Orbit Tools | Developer experience engineer | onsite. Own our build systems and improve developer workflows in our Austin office. Country eligibility is not stated. go kubernetes",
+    "dimensions": {
+      "ownership": {
+        "score": 0.94,
+        "label": "Stated ownership",
+        "evidence_ids": [
+          "rev_demo_018_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization",
+      "eligible_countries"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_018",
+    "source_url": "https://example.com/source/demo_018",
+    "description_text": "Orbit Tools | Developer experience engineer | onsite. Own our build systems and improve developer workflows in our Austin office. Country eligibility is not stated.",
+    "evidence": [
+      {
+        "id": "rev_demo_018_p0",
+        "source_revision_id": "rev_demo_018",
+        "text": "Orbit Tools | Developer experience engineer | onsite. Own our build systems and improve developer workflows in our Austin office. Country eligibility is not stated.",
+        "start": 0,
+        "end": 164
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_018",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_018_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Own our build systems and improve developer workflows in our Austin office.",
+      "evidence_ids": [
+        "rev_demo_018_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_019",
+    "advertisement_id": "ad_demo_019",
+    "opportunity_id": "opp_demo_019",
+    "company": {
+      "id": "company_6",
+      "name": "Moss Studio"
+    },
+    "title": "Product engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-12T00:00:00+00:00",
+    "expires_at": "2026-11-11T00:00:00+00:00",
+    "updated_at": "2026-09-12T00:00:00+00:00",
+    "source_revision_id": "rev_demo_019",
+    "content_version": "rev_demo_019",
+    "skills": [
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      },
+      {
+        "id": "react",
+        "label": "React"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_019_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "MX",
+        "US"
+      ],
+      "evidence_ids": [
+        "rev_demo_019_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Moss Studio | Product engineer | remote. Ship tools for independent creators. You will design, build, and maintain our editor. Eligible countries: MX, US. typescript react",
+    "dimensions": {
+      "specificity": {
+        "score": 0.94,
+        "label": "Specific responsibilities",
+        "evidence_ids": [
+          "rev_demo_019_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_019",
+    "source_url": "https://example.com/source/demo_019",
+    "description_text": "Moss Studio | Product engineer | remote. Ship tools for independent creators. You will design, build, and maintain our editor. Eligible countries: MX, US.",
+    "evidence": [
+      {
+        "id": "rev_demo_019_p0",
+        "source_revision_id": "rev_demo_019",
+        "text": "Moss Studio | Product engineer | remote. Ship tools for independent creators. You will design, build, and maintain our editor. Eligible countries: MX, US.",
+        "start": 0,
+        "end": 154
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_019",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_019_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Ship tools for independent creators. You will design, build, and maintain our editor.",
+      "evidence_ids": [
+        "rev_demo_019_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_020",
+    "advertisement_id": "ad_demo_020",
+    "opportunity_id": "opp_demo_020",
+    "company": {
+      "id": "company_7",
+      "name": "Signal Foundry"
+    },
+    "title": "Data engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-11T00:00:00+00:00",
+    "expires_at": "2026-11-10T00:00:00+00:00",
+    "updated_at": "2026-09-11T00:00:00+00:00",
+    "source_revision_id": "rev_demo_020",
+    "content_version": "rev_demo_020",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "sql",
+        "label": "Sql"
+      },
+      {
+        "id": "aws",
+        "label": "Aws"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_020_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "DE"
+      ],
+      "evidence_ids": [
+        "rev_demo_020_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Signal Foundry | Data engineer | remote. Build warehouse pipelines with clear data contracts. Learning budget and regular mentoring. Eligible countries: DE. python sql aws",
+    "dimensions": {
+      "learning": {
+        "score": 0.94,
+        "label": "Learning support",
+        "evidence_ids": [
+          "rev_demo_020_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_020",
+    "source_url": "https://example.com/source/demo_020",
+    "description_text": "Signal Foundry | Data engineer | remote. Build warehouse pipelines with clear data contracts. Learning budget and regular mentoring. Eligible countries: DE.",
+    "evidence": [
+      {
+        "id": "rev_demo_020_p0",
+        "source_revision_id": "rev_demo_020",
+        "text": "Signal Foundry | Data engineer | remote. Build warehouse pipelines with clear data contracts. Learning budget and regular mentoring. Eligible countries: DE.",
+        "start": 0,
+        "end": 156
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_020",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_020_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build warehouse pipelines with clear data contracts. Learning budget and regular mentoring.",
+      "evidence_ids": [
+        "rev_demo_020_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_021",
+    "advertisement_id": "ad_demo_021",
+    "opportunity_id": "opp_demo_021",
+    "company": {
+      "id": "company_8",
+      "name": "Cedar Health"
+    },
+    "title": "Multiple roles",
+    "role_kind": "multiple_roles",
+    "source_posted_at": "2026-09-10T00:00:00+00:00",
+    "expires_at": "2026-11-09T00:00:00+00:00",
+    "updated_at": "2026-09-10T00:00:00+00:00",
+    "source_revision_id": "rev_demo_021",
+    "content_version": "rev_demo_021",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      },
+      {
+        "id": "react",
+        "label": "React"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "hybrid",
+      "evidence_ids": [
+        "rev_demo_021_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Cedar Health | Multiple roles | hybrid. Hiring software and data engineers. Shared healthcare platform team; individual requirements vary. Country eligibility is not stated. python typescript react",
+    "dimensions": {
+      "specificity": {
+        "score": 0.94,
+        "label": "Specific responsibilities",
+        "evidence_ids": [
+          "rev_demo_021_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization",
+      "eligible_countries"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_021",
+    "source_url": "https://example.com/source/demo_021",
+    "description_text": "Cedar Health | Multiple roles | hybrid. Hiring software and data engineers. Shared healthcare platform team; individual requirements vary. Country eligibility is not stated.",
+    "evidence": [
+      {
+        "id": "rev_demo_021_p0",
+        "source_revision_id": "rev_demo_021",
+        "text": "Cedar Health | Multiple roles | hybrid. Hiring software and data engineers. Shared healthcare platform team; individual requirements vary. Country eligibility is not stated.",
+        "start": 0,
+        "end": 173
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_021",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_021_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Hiring software and data engineers. Shared healthcare platform team; individual requirements vary.",
+      "evidence_ids": [
+        "rev_demo_021_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_022",
+    "advertisement_id": "ad_demo_022",
+    "opportunity_id": "opp_demo_022",
+    "company": {
+      "id": "company_9",
+      "name": "Copper Cloud"
+    },
+    "title": "Infrastructure engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-09T00:00:00+00:00",
+    "expires_at": "2026-11-08T00:00:00+00:00",
+    "updated_at": "2026-09-09T00:00:00+00:00",
+    "source_revision_id": "rev_demo_022",
+    "content_version": "rev_demo_022",
+    "skills": [
+      {
+        "id": "go",
+        "label": "Go"
+      },
+      {
+        "id": "aws",
+        "label": "Aws"
+      },
+      {
+        "id": "kubernetes",
+        "label": "Kubernetes"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_022_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "MX",
+        "US"
+      ],
+      "evidence_ids": [
+        "rev_demo_022_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Copper Cloud | Infrastructure engineer | remote. Operate a distributed storage service. Four-day week and flexible hours. Eligible countries: MX, US. go aws kubernetes",
+    "dimensions": {
+      "conditions": {
+        "score": 0.94,
+        "label": "Stated working conditions",
+        "evidence_ids": [
+          "rev_demo_022_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_022",
+    "source_url": "https://example.com/source/demo_022",
+    "description_text": "Copper Cloud | Infrastructure engineer | remote. Operate a distributed storage service. Four-day week and flexible hours. Eligible countries: MX, US.",
+    "evidence": [
+      {
+        "id": "rev_demo_022_p0",
+        "source_revision_id": "rev_demo_022",
+        "text": "Copper Cloud | Infrastructure engineer | remote. Operate a distributed storage service. Four-day week and flexible hours. Eligible countries: MX, US.",
+        "start": 0,
+        "end": 149
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_022",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_022_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Operate a distributed storage service. Four-day week and flexible hours.",
+      "evidence_ids": [
+        "rev_demo_022_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_023",
+    "advertisement_id": "ad_demo_023",
+    "opportunity_id": "opp_demo_023",
+    "company": {
+      "id": "company_10",
+      "name": "Lantern Maps"
+    },
+    "title": "Mobile engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-08T00:00:00+00:00",
+    "expires_at": "2026-11-07T00:00:00+00:00",
+    "updated_at": "2026-09-08T00:00:00+00:00",
+    "source_revision_id": "rev_demo_023",
+    "content_version": "rev_demo_023",
+    "skills": [
+      {
+        "id": "swift",
+        "label": "Swift"
+      },
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "onsite",
+      "evidence_ids": [
+        "rev_demo_023_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "DE"
+      ],
+      "evidence_ids": [
+        "rev_demo_023_p0"
+      ]
+    },
+    "compensation": {
+      "status": "stated",
+      "value": {
+        "original": "Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year."
+      },
+      "evidence_ids": [
+        "rev_demo_023_p0"
+      ]
+    },
+    "search_text": "Lantern Maps | Mobile engineer | onsite. Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year. Eligible countries: DE. swift typescript",
+    "dimensions": {
+      "transparency": {
+        "score": 0.94,
+        "label": "Compensation disclosed",
+        "evidence_ids": [
+          "rev_demo_023_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_023",
+    "source_url": "https://example.com/source/demo_023",
+    "description_text": "Lantern Maps | Mobile engineer | onsite. Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year. Eligible countries: DE.",
+    "evidence": [
+      {
+        "id": "rev_demo_023_p0",
+        "source_revision_id": "rev_demo_023",
+        "text": "Lantern Maps | Mobile engineer | onsite. Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year. Eligible countries: DE.",
+        "start": 0,
+        "end": 160
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_023",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_023_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year.",
+      "evidence_ids": [
+        "rev_demo_023_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_024",
+    "advertisement_id": "ad_demo_024",
+    "opportunity_id": "opp_demo_024",
+    "company": {
+      "id": "company_11",
+      "name": "Paperplane"
+    },
+    "title": "Backend developer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-07T00:00:00+00:00",
+    "expires_at": "2026-11-06T00:00:00+00:00",
+    "updated_at": "2026-09-07T00:00:00+00:00",
+    "source_revision_id": "rev_demo_024",
+    "content_version": "rev_demo_024",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "postgresql",
+        "label": "Postgresql"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_024_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Paperplane | Backend developer | remote. Build document collaboration APIs. Equivalent experience and career transitions are welcome. Country eligibility is not stated. python postgresql",
+    "dimensions": {
+      "adjacent": {
+        "score": 0.94,
+        "label": "Adjacent experience welcome",
+        "evidence_ids": [
+          "rev_demo_024_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization",
+      "eligible_countries"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_024",
+    "source_url": "https://example.com/source/demo_024",
+    "description_text": "Paperplane | Backend developer | remote. Build document collaboration APIs. Equivalent experience and career transitions are welcome. Country eligibility is not stated.",
+    "evidence": [
+      {
+        "id": "rev_demo_024_p0",
+        "source_revision_id": "rev_demo_024",
+        "text": "Paperplane | Backend developer | remote. Build document collaboration APIs. Equivalent experience and career transitions are welcome. Country eligibility is not stated.",
+        "start": 0,
+        "end": 168
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_024",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_024_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build document collaboration APIs. Equivalent experience and career transitions are welcome.",
+      "evidence_ids": [
+        "rev_demo_024_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_025",
+    "advertisement_id": "ad_demo_025",
+    "opportunity_id": "opp_demo_025",
+    "company": {
+      "id": "company_0",
+      "name": "Northstar Labs"
+    },
+    "title": "Platform engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-06T00:00:00+00:00",
+    "expires_at": "2026-11-05T00:00:00+00:00",
+    "updated_at": "2026-09-06T00:00:00+00:00",
+    "source_revision_id": "rev_demo_025",
+    "content_version": "rev_demo_025",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "postgresql",
+        "label": "Postgresql"
+      },
+      {
+        "id": "kubernetes",
+        "label": "Kubernetes"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_025_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "MX",
+        "US"
+      ],
+      "evidence_ids": [
+        "rev_demo_025_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Northstar Labs | Platform engineer | remote. Build the deployment platform used by our engineering teams. You own design decisions and reliability. Eligible countries: MX, US. python postgresql kubernetes",
+    "dimensions": {
+      "ownership": {
+        "score": 0.94,
+        "label": "Stated ownership",
+        "evidence_ids": [
+          "rev_demo_025_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_025",
+    "source_url": "https://example.com/source/demo_025",
+    "description_text": "Northstar Labs | Platform engineer | remote. Build the deployment platform used by our engineering teams. You own design decisions and reliability. Eligible countries: MX, US.",
+    "evidence": [
+      {
+        "id": "rev_demo_025_p0",
+        "source_revision_id": "rev_demo_025",
+        "text": "Northstar Labs | Platform engineer | remote. Build the deployment platform used by our engineering teams. You own design decisions and reliability. Eligible countries: MX, US.",
+        "start": 0,
+        "end": 175
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_025",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_025_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build the deployment platform used by our engineering teams. You own design decisions and reliability.",
+      "evidence_ids": [
+        "rev_demo_025_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_026",
+    "advertisement_id": "ad_demo_026",
+    "opportunity_id": "opp_demo_026",
+    "company": {
+      "id": "company_1",
+      "name": "Fieldwork"
+    },
+    "title": "Frontend engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-05T00:00:00+00:00",
+    "expires_at": "2026-11-04T00:00:00+00:00",
+    "updated_at": "2026-09-05T00:00:00+00:00",
+    "source_revision_id": "rev_demo_026",
+    "content_version": "rev_demo_026",
+    "skills": [
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      },
+      {
+        "id": "react",
+        "label": "React"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_026_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "DE"
+      ],
+      "evidence_ids": [
+        "rev_demo_026_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Fieldwork | Frontend engineer | remote. Build accessible tools for field scientists. Pair with senior engineers through weekly mentorship. Eligible countries: DE. typescript react",
+    "dimensions": {
+      "learning": {
+        "score": 0.94,
+        "label": "Learning support",
+        "evidence_ids": [
+          "rev_demo_026_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_026",
+    "source_url": "https://example.com/source/demo_026",
+    "description_text": "Fieldwork | Frontend engineer | remote. Build accessible tools for field scientists. Pair with senior engineers through weekly mentorship. Eligible countries: DE.",
+    "evidence": [
+      {
+        "id": "rev_demo_026_p0",
+        "source_revision_id": "rev_demo_026",
+        "text": "Fieldwork | Frontend engineer | remote. Build accessible tools for field scientists. Pair with senior engineers through weekly mentorship. Eligible countries: DE.",
+        "start": 0,
+        "end": 162
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_026",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_026_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build accessible tools for field scientists. Pair with senior engineers through weekly mentorship.",
+      "evidence_ids": [
+        "rev_demo_026_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_027",
+    "advertisement_id": "ad_demo_027",
+    "opportunity_id": "opp_demo_027",
+    "company": {
+      "id": "company_2",
+      "name": "Juniper Systems"
+    },
+    "title": "Backend engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-04T00:00:00+00:00",
+    "expires_at": "2026-11-03T00:00:00+00:00",
+    "updated_at": "2026-09-04T00:00:00+00:00",
+    "source_revision_id": "rev_demo_027",
+    "content_version": "rev_demo_027",
+    "skills": [
+      {
+        "id": "rust",
+        "label": "Rust"
+      },
+      {
+        "id": "postgresql",
+        "label": "Postgresql"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "hybrid",
+      "evidence_ids": [
+        "rev_demo_027_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "compensation": {
+      "status": "stated",
+      "value": {
+        "original": "Design reliable event processing. Salary: $140,000 to $180,000 USD per year."
+      },
+      "evidence_ids": [
+        "rev_demo_027_p0"
+      ]
+    },
+    "search_text": "Juniper Systems | Backend engineer | hybrid. Design reliable event processing. Salary: $140,000 to $180,000 USD per year. Country eligibility is not stated. rust postgresql",
+    "dimensions": {
+      "transparency": {
+        "score": 0.94,
+        "label": "Compensation disclosed",
+        "evidence_ids": [
+          "rev_demo_027_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization",
+      "eligible_countries"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_027",
+    "source_url": "https://example.com/source/demo_027",
+    "description_text": "Juniper Systems | Backend engineer | hybrid. Design reliable event processing. Salary: $140,000 to $180,000 USD per year. Country eligibility is not stated.",
+    "evidence": [
+      {
+        "id": "rev_demo_027_p0",
+        "source_revision_id": "rev_demo_027",
+        "text": "Juniper Systems | Backend engineer | hybrid. Design reliable event processing. Salary: $140,000 to $180,000 USD per year. Country eligibility is not stated.",
+        "start": 0,
+        "end": 156
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_027",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_027_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Design reliable event processing. Salary: $140,000 to $180,000 USD per year.",
+      "evidence_ids": [
+        "rev_demo_027_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_028",
+    "advertisement_id": "ad_demo_028",
+    "opportunity_id": "opp_demo_028",
+    "company": {
+      "id": "company_3",
+      "name": "Tidal Research"
+    },
+    "title": "ML engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-03T00:00:00+00:00",
+    "expires_at": "2026-11-02T00:00:00+00:00",
+    "updated_at": "2026-09-03T00:00:00+00:00",
+    "source_revision_id": "rev_demo_028",
+    "content_version": "rev_demo_028",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "machine-learning",
+        "label": "Machine Learning"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_028_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "MX",
+        "US"
+      ],
+      "evidence_ids": [
+        "rev_demo_028_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Tidal Research | ML engineer | remote. Develop models for coastal forecasting. We welcome equivalent experience from adjacent disciplines. Eligible countries: MX, US. python machine-learning",
+    "dimensions": {
+      "adjacent": {
+        "score": 0.94,
+        "label": "Adjacent experience welcome",
+        "evidence_ids": [
+          "rev_demo_028_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_028",
+    "source_url": "https://example.com/source/demo_028",
+    "description_text": "Tidal Research | ML engineer | remote. Develop models for coastal forecasting. We welcome equivalent experience from adjacent disciplines. Eligible countries: MX, US.",
+    "evidence": [
+      {
+        "id": "rev_demo_028_p0",
+        "source_revision_id": "rev_demo_028",
+        "text": "Tidal Research | ML engineer | remote. Develop models for coastal forecasting. We welcome equivalent experience from adjacent disciplines. Eligible countries: MX, US.",
+        "start": 0,
+        "end": 166
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_028",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_028_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Develop models for coastal forecasting. We welcome equivalent experience from adjacent disciplines.",
+      "evidence_ids": [
+        "rev_demo_028_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_029",
+    "advertisement_id": "ad_demo_029",
+    "opportunity_id": "opp_demo_029",
+    "company": {
+      "id": "company_4",
+      "name": "Common Ground"
+    },
+    "title": "Full stack developer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-02T00:00:00+00:00",
+    "expires_at": "2026-11-01T00:00:00+00:00",
+    "updated_at": "2026-09-02T00:00:00+00:00",
+    "source_revision_id": "rev_demo_029",
+    "content_version": "rev_demo_029",
+    "skills": [
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      },
+      {
+        "id": "react",
+        "label": "React"
+      },
+      {
+        "id": "postgresql",
+        "label": "Postgresql"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_029_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "DE"
+      ],
+      "evidence_ids": [
+        "rev_demo_029_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Common Ground | Full stack developer | remote. Build community scheduling tools. Flexible hours and 30 days paid leave. Eligible countries: DE. typescript react postgresql",
+    "dimensions": {
+      "conditions": {
+        "score": 0.94,
+        "label": "Stated working conditions",
+        "evidence_ids": [
+          "rev_demo_029_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_029",
+    "source_url": "https://example.com/source/demo_029",
+    "description_text": "Common Ground | Full stack developer | remote. Build community scheduling tools. Flexible hours and 30 days paid leave. Eligible countries: DE.",
+    "evidence": [
+      {
+        "id": "rev_demo_029_p0",
+        "source_revision_id": "rev_demo_029",
+        "text": "Common Ground | Full stack developer | remote. Build community scheduling tools. Flexible hours and 30 days paid leave. Eligible countries: DE.",
+        "start": 0,
+        "end": 143
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_029",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_029_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build community scheduling tools. Flexible hours and 30 days paid leave.",
+      "evidence_ids": [
+        "rev_demo_029_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_030",
+    "advertisement_id": "ad_demo_030",
+    "opportunity_id": "opp_demo_030",
+    "company": {
+      "id": "company_5",
+      "name": "Orbit Tools"
+    },
+    "title": "Developer experience engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-09-01T00:00:00+00:00",
+    "expires_at": "2026-10-31T00:00:00+00:00",
+    "updated_at": "2026-09-01T00:00:00+00:00",
+    "source_revision_id": "rev_demo_030",
+    "content_version": "rev_demo_030",
+    "skills": [
+      {
+        "id": "go",
+        "label": "Go"
+      },
+      {
+        "id": "kubernetes",
+        "label": "Kubernetes"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "onsite",
+      "evidence_ids": [
+        "rev_demo_030_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Orbit Tools | Developer experience engineer | onsite. Own our build systems and improve developer workflows in our Austin office. Country eligibility is not stated. go kubernetes",
+    "dimensions": {
+      "ownership": {
+        "score": 0.94,
+        "label": "Stated ownership",
+        "evidence_ids": [
+          "rev_demo_030_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization",
+      "eligible_countries"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_030",
+    "source_url": "https://example.com/source/demo_030",
+    "description_text": "Orbit Tools | Developer experience engineer | onsite. Own our build systems and improve developer workflows in our Austin office. Country eligibility is not stated.",
+    "evidence": [
+      {
+        "id": "rev_demo_030_p0",
+        "source_revision_id": "rev_demo_030",
+        "text": "Orbit Tools | Developer experience engineer | onsite. Own our build systems and improve developer workflows in our Austin office. Country eligibility is not stated.",
+        "start": 0,
+        "end": 164
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_030",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_030_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Own our build systems and improve developer workflows in our Austin office.",
+      "evidence_ids": [
+        "rev_demo_030_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_031",
+    "advertisement_id": "ad_demo_031",
+    "opportunity_id": "opp_demo_031",
+    "company": {
+      "id": "company_6",
+      "name": "Moss Studio"
+    },
+    "title": "Product engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-08-31T00:00:00+00:00",
+    "expires_at": "2026-10-30T00:00:00+00:00",
+    "updated_at": "2026-08-31T00:00:00+00:00",
+    "source_revision_id": "rev_demo_031",
+    "content_version": "rev_demo_031",
+    "skills": [
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      },
+      {
+        "id": "react",
+        "label": "React"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_031_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "MX",
+        "US"
+      ],
+      "evidence_ids": [
+        "rev_demo_031_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Moss Studio | Product engineer | remote. Ship tools for independent creators. You will design, build, and maintain our editor. Eligible countries: MX, US. typescript react",
+    "dimensions": {
+      "specificity": {
+        "score": 0.94,
+        "label": "Specific responsibilities",
+        "evidence_ids": [
+          "rev_demo_031_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_031",
+    "source_url": "https://example.com/source/demo_031",
+    "description_text": "Moss Studio | Product engineer | remote. Ship tools for independent creators. You will design, build, and maintain our editor. Eligible countries: MX, US.",
+    "evidence": [
+      {
+        "id": "rev_demo_031_p0",
+        "source_revision_id": "rev_demo_031",
+        "text": "Moss Studio | Product engineer | remote. Ship tools for independent creators. You will design, build, and maintain our editor. Eligible countries: MX, US.",
+        "start": 0,
+        "end": 154
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_031",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_031_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Ship tools for independent creators. You will design, build, and maintain our editor.",
+      "evidence_ids": [
+        "rev_demo_031_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_032",
+    "advertisement_id": "ad_demo_032",
+    "opportunity_id": "opp_demo_032",
+    "company": {
+      "id": "company_7",
+      "name": "Signal Foundry"
+    },
+    "title": "Data engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-08-30T00:00:00+00:00",
+    "expires_at": "2026-10-29T00:00:00+00:00",
+    "updated_at": "2026-08-30T00:00:00+00:00",
+    "source_revision_id": "rev_demo_032",
+    "content_version": "rev_demo_032",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "sql",
+        "label": "Sql"
+      },
+      {
+        "id": "aws",
+        "label": "Aws"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_032_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "DE"
+      ],
+      "evidence_ids": [
+        "rev_demo_032_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Signal Foundry | Data engineer | remote. Build warehouse pipelines with clear data contracts. Learning budget and regular mentoring. Eligible countries: DE. python sql aws",
+    "dimensions": {
+      "learning": {
+        "score": 0.94,
+        "label": "Learning support",
+        "evidence_ids": [
+          "rev_demo_032_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_032",
+    "source_url": "https://example.com/source/demo_032",
+    "description_text": "Signal Foundry | Data engineer | remote. Build warehouse pipelines with clear data contracts. Learning budget and regular mentoring. Eligible countries: DE.",
+    "evidence": [
+      {
+        "id": "rev_demo_032_p0",
+        "source_revision_id": "rev_demo_032",
+        "text": "Signal Foundry | Data engineer | remote. Build warehouse pipelines with clear data contracts. Learning budget and regular mentoring. Eligible countries: DE.",
+        "start": 0,
+        "end": 156
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_032",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_032_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build warehouse pipelines with clear data contracts. Learning budget and regular mentoring.",
+      "evidence_ids": [
+        "rev_demo_032_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_033",
+    "advertisement_id": "ad_demo_033",
+    "opportunity_id": "opp_demo_033",
+    "company": {
+      "id": "company_8",
+      "name": "Cedar Health"
+    },
+    "title": "Multiple roles",
+    "role_kind": "multiple_roles",
+    "source_posted_at": "2026-08-29T00:00:00+00:00",
+    "expires_at": "2026-10-28T00:00:00+00:00",
+    "updated_at": "2026-08-29T00:00:00+00:00",
+    "source_revision_id": "rev_demo_033",
+    "content_version": "rev_demo_033",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      },
+      {
+        "id": "react",
+        "label": "React"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "hybrid",
+      "evidence_ids": [
+        "rev_demo_033_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Cedar Health | Multiple roles | hybrid. Hiring software and data engineers. Shared healthcare platform team; individual requirements vary. Country eligibility is not stated. python typescript react",
+    "dimensions": {
+      "specificity": {
+        "score": 0.94,
+        "label": "Specific responsibilities",
+        "evidence_ids": [
+          "rev_demo_033_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization",
+      "eligible_countries"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_033",
+    "source_url": "https://example.com/source/demo_033",
+    "description_text": "Cedar Health | Multiple roles | hybrid. Hiring software and data engineers. Shared healthcare platform team; individual requirements vary. Country eligibility is not stated.",
+    "evidence": [
+      {
+        "id": "rev_demo_033_p0",
+        "source_revision_id": "rev_demo_033",
+        "text": "Cedar Health | Multiple roles | hybrid. Hiring software and data engineers. Shared healthcare platform team; individual requirements vary. Country eligibility is not stated.",
+        "start": 0,
+        "end": 173
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_033",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_033_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Hiring software and data engineers. Shared healthcare platform team; individual requirements vary.",
+      "evidence_ids": [
+        "rev_demo_033_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_034",
+    "advertisement_id": "ad_demo_034",
+    "opportunity_id": "opp_demo_034",
+    "company": {
+      "id": "company_9",
+      "name": "Copper Cloud"
+    },
+    "title": "Infrastructure engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-08-28T00:00:00+00:00",
+    "expires_at": "2026-10-27T00:00:00+00:00",
+    "updated_at": "2026-08-28T00:00:00+00:00",
+    "source_revision_id": "rev_demo_034",
+    "content_version": "rev_demo_034",
+    "skills": [
+      {
+        "id": "go",
+        "label": "Go"
+      },
+      {
+        "id": "aws",
+        "label": "Aws"
+      },
+      {
+        "id": "kubernetes",
+        "label": "Kubernetes"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_034_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "MX",
+        "US"
+      ],
+      "evidence_ids": [
+        "rev_demo_034_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Copper Cloud | Infrastructure engineer | remote. Operate a distributed storage service. Four-day week and flexible hours. Eligible countries: MX, US. go aws kubernetes",
+    "dimensions": {
+      "conditions": {
+        "score": 0.94,
+        "label": "Stated working conditions",
+        "evidence_ids": [
+          "rev_demo_034_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_034",
+    "source_url": "https://example.com/source/demo_034",
+    "description_text": "Copper Cloud | Infrastructure engineer | remote. Operate a distributed storage service. Four-day week and flexible hours. Eligible countries: MX, US.",
+    "evidence": [
+      {
+        "id": "rev_demo_034_p0",
+        "source_revision_id": "rev_demo_034",
+        "text": "Copper Cloud | Infrastructure engineer | remote. Operate a distributed storage service. Four-day week and flexible hours. Eligible countries: MX, US.",
+        "start": 0,
+        "end": 149
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_034",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_034_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Operate a distributed storage service. Four-day week and flexible hours.",
+      "evidence_ids": [
+        "rev_demo_034_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_035",
+    "advertisement_id": "ad_demo_035",
+    "opportunity_id": "opp_demo_035",
+    "company": {
+      "id": "company_10",
+      "name": "Lantern Maps"
+    },
+    "title": "Mobile engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-08-27T00:00:00+00:00",
+    "expires_at": "2026-10-26T00:00:00+00:00",
+    "updated_at": "2026-08-27T00:00:00+00:00",
+    "source_revision_id": "rev_demo_035",
+    "content_version": "rev_demo_035",
+    "skills": [
+      {
+        "id": "swift",
+        "label": "Swift"
+      },
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "onsite",
+      "evidence_ids": [
+        "rev_demo_035_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "DE"
+      ],
+      "evidence_ids": [
+        "rev_demo_035_p0"
+      ]
+    },
+    "compensation": {
+      "status": "stated",
+      "value": {
+        "original": "Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year."
+      },
+      "evidence_ids": [
+        "rev_demo_035_p0"
+      ]
+    },
+    "search_text": "Lantern Maps | Mobile engineer | onsite. Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year. Eligible countries: DE. swift typescript",
+    "dimensions": {
+      "transparency": {
+        "score": 0.94,
+        "label": "Compensation disclosed",
+        "evidence_ids": [
+          "rev_demo_035_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_035",
+    "source_url": "https://example.com/source/demo_035",
+    "description_text": "Lantern Maps | Mobile engineer | onsite. Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year. Eligible countries: DE.",
+    "evidence": [
+      {
+        "id": "rev_demo_035_p0",
+        "source_revision_id": "rev_demo_035",
+        "text": "Lantern Maps | Mobile engineer | onsite. Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year. Eligible countries: DE.",
+        "start": 0,
+        "end": 160
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_035",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_035_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year.",
+      "evidence_ids": [
+        "rev_demo_035_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_036",
+    "advertisement_id": "ad_demo_036",
+    "opportunity_id": "opp_demo_036",
+    "company": {
+      "id": "company_11",
+      "name": "Paperplane"
+    },
+    "title": "Backend developer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-08-26T00:00:00+00:00",
+    "expires_at": "2026-10-25T00:00:00+00:00",
+    "updated_at": "2026-08-26T00:00:00+00:00",
+    "source_revision_id": "rev_demo_036",
+    "content_version": "rev_demo_036",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "postgresql",
+        "label": "Postgresql"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_036_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Paperplane | Backend developer | remote. Build document collaboration APIs. Equivalent experience and career transitions are welcome. Country eligibility is not stated. python postgresql",
+    "dimensions": {
+      "adjacent": {
+        "score": 0.94,
+        "label": "Adjacent experience welcome",
+        "evidence_ids": [
+          "rev_demo_036_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization",
+      "eligible_countries"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_036",
+    "source_url": "https://example.com/source/demo_036",
+    "description_text": "Paperplane | Backend developer | remote. Build document collaboration APIs. Equivalent experience and career transitions are welcome. Country eligibility is not stated.",
+    "evidence": [
+      {
+        "id": "rev_demo_036_p0",
+        "source_revision_id": "rev_demo_036",
+        "text": "Paperplane | Backend developer | remote. Build document collaboration APIs. Equivalent experience and career transitions are welcome. Country eligibility is not stated.",
+        "start": 0,
+        "end": 168
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_036",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_036_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build document collaboration APIs. Equivalent experience and career transitions are welcome.",
+      "evidence_ids": [
+        "rev_demo_036_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_037",
+    "advertisement_id": "ad_demo_037",
+    "opportunity_id": "opp_demo_037",
+    "company": {
+      "id": "company_0",
+      "name": "Northstar Labs"
+    },
+    "title": "Platform engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-08-25T00:00:00+00:00",
+    "expires_at": "2026-10-24T00:00:00+00:00",
+    "updated_at": "2026-08-25T00:00:00+00:00",
+    "source_revision_id": "rev_demo_037",
+    "content_version": "rev_demo_037",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "postgresql",
+        "label": "Postgresql"
+      },
+      {
+        "id": "kubernetes",
+        "label": "Kubernetes"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_037_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "MX",
+        "US"
+      ],
+      "evidence_ids": [
+        "rev_demo_037_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Northstar Labs | Platform engineer | remote. Build the deployment platform used by our engineering teams. You own design decisions and reliability. Eligible countries: MX, US. python postgresql kubernetes",
+    "dimensions": {
+      "ownership": {
+        "score": 0.94,
+        "label": "Stated ownership",
+        "evidence_ids": [
+          "rev_demo_037_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_037",
+    "source_url": "https://example.com/source/demo_037",
+    "description_text": "Northstar Labs | Platform engineer | remote. Build the deployment platform used by our engineering teams. You own design decisions and reliability. Eligible countries: MX, US.",
+    "evidence": [
+      {
+        "id": "rev_demo_037_p0",
+        "source_revision_id": "rev_demo_037",
+        "text": "Northstar Labs | Platform engineer | remote. Build the deployment platform used by our engineering teams. You own design decisions and reliability. Eligible countries: MX, US.",
+        "start": 0,
+        "end": 175
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_037",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_037_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build the deployment platform used by our engineering teams. You own design decisions and reliability.",
+      "evidence_ids": [
+        "rev_demo_037_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_038",
+    "advertisement_id": "ad_demo_038",
+    "opportunity_id": "opp_demo_038",
+    "company": {
+      "id": "company_1",
+      "name": "Fieldwork"
+    },
+    "title": "Frontend engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-08-24T00:00:00+00:00",
+    "expires_at": "2026-10-23T00:00:00+00:00",
+    "updated_at": "2026-08-24T00:00:00+00:00",
+    "source_revision_id": "rev_demo_038",
+    "content_version": "rev_demo_038",
+    "skills": [
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      },
+      {
+        "id": "react",
+        "label": "React"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_038_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "DE"
+      ],
+      "evidence_ids": [
+        "rev_demo_038_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Fieldwork | Frontend engineer | remote. Build accessible tools for field scientists. Pair with senior engineers through weekly mentorship. Eligible countries: DE. typescript react",
+    "dimensions": {
+      "learning": {
+        "score": 0.94,
+        "label": "Learning support",
+        "evidence_ids": [
+          "rev_demo_038_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_038",
+    "source_url": "https://example.com/source/demo_038",
+    "description_text": "Fieldwork | Frontend engineer | remote. Build accessible tools for field scientists. Pair with senior engineers through weekly mentorship. Eligible countries: DE.",
+    "evidence": [
+      {
+        "id": "rev_demo_038_p0",
+        "source_revision_id": "rev_demo_038",
+        "text": "Fieldwork | Frontend engineer | remote. Build accessible tools for field scientists. Pair with senior engineers through weekly mentorship. Eligible countries: DE.",
+        "start": 0,
+        "end": 162
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_038",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_038_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build accessible tools for field scientists. Pair with senior engineers through weekly mentorship.",
+      "evidence_ids": [
+        "rev_demo_038_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_039",
+    "advertisement_id": "ad_demo_039",
+    "opportunity_id": "opp_demo_039",
+    "company": {
+      "id": "company_2",
+      "name": "Juniper Systems"
+    },
+    "title": "Backend engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-08-23T00:00:00+00:00",
+    "expires_at": "2026-10-22T00:00:00+00:00",
+    "updated_at": "2026-08-23T00:00:00+00:00",
+    "source_revision_id": "rev_demo_039",
+    "content_version": "rev_demo_039",
+    "skills": [
+      {
+        "id": "rust",
+        "label": "Rust"
+      },
+      {
+        "id": "postgresql",
+        "label": "Postgresql"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "hybrid",
+      "evidence_ids": [
+        "rev_demo_039_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "compensation": {
+      "status": "stated",
+      "value": {
+        "original": "Design reliable event processing. Salary: $140,000 to $180,000 USD per year."
+      },
+      "evidence_ids": [
+        "rev_demo_039_p0"
+      ]
+    },
+    "search_text": "Juniper Systems | Backend engineer | hybrid. Design reliable event processing. Salary: $140,000 to $180,000 USD per year. Country eligibility is not stated. rust postgresql",
+    "dimensions": {
+      "transparency": {
+        "score": 0.94,
+        "label": "Compensation disclosed",
+        "evidence_ids": [
+          "rev_demo_039_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization",
+      "eligible_countries"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_039",
+    "source_url": "https://example.com/source/demo_039",
+    "description_text": "Juniper Systems | Backend engineer | hybrid. Design reliable event processing. Salary: $140,000 to $180,000 USD per year. Country eligibility is not stated.",
+    "evidence": [
+      {
+        "id": "rev_demo_039_p0",
+        "source_revision_id": "rev_demo_039",
+        "text": "Juniper Systems | Backend engineer | hybrid. Design reliable event processing. Salary: $140,000 to $180,000 USD per year. Country eligibility is not stated.",
+        "start": 0,
+        "end": 156
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_039",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_039_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Design reliable event processing. Salary: $140,000 to $180,000 USD per year.",
+      "evidence_ids": [
+        "rev_demo_039_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_040",
+    "advertisement_id": "ad_demo_040",
+    "opportunity_id": "opp_demo_040",
+    "company": {
+      "id": "company_3",
+      "name": "Tidal Research"
+    },
+    "title": "ML engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-08-22T00:00:00+00:00",
+    "expires_at": "2026-10-21T00:00:00+00:00",
+    "updated_at": "2026-08-22T00:00:00+00:00",
+    "source_revision_id": "rev_demo_040",
+    "content_version": "rev_demo_040",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "machine-learning",
+        "label": "Machine Learning"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_040_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "MX",
+        "US"
+      ],
+      "evidence_ids": [
+        "rev_demo_040_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Tidal Research | ML engineer | remote. Develop models for coastal forecasting. We welcome equivalent experience from adjacent disciplines. Eligible countries: MX, US. python machine-learning",
+    "dimensions": {
+      "adjacent": {
+        "score": 0.94,
+        "label": "Adjacent experience welcome",
+        "evidence_ids": [
+          "rev_demo_040_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_040",
+    "source_url": "https://example.com/source/demo_040",
+    "description_text": "Tidal Research | ML engineer | remote. Develop models for coastal forecasting. We welcome equivalent experience from adjacent disciplines. Eligible countries: MX, US.",
+    "evidence": [
+      {
+        "id": "rev_demo_040_p0",
+        "source_revision_id": "rev_demo_040",
+        "text": "Tidal Research | ML engineer | remote. Develop models for coastal forecasting. We welcome equivalent experience from adjacent disciplines. Eligible countries: MX, US.",
+        "start": 0,
+        "end": 166
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_040",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_040_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Develop models for coastal forecasting. We welcome equivalent experience from adjacent disciplines.",
+      "evidence_ids": [
+        "rev_demo_040_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_041",
+    "advertisement_id": "ad_demo_041",
+    "opportunity_id": "opp_demo_041",
+    "company": {
+      "id": "company_4",
+      "name": "Common Ground"
+    },
+    "title": "Full stack developer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-08-21T00:00:00+00:00",
+    "expires_at": "2026-10-20T00:00:00+00:00",
+    "updated_at": "2026-08-21T00:00:00+00:00",
+    "source_revision_id": "rev_demo_041",
+    "content_version": "rev_demo_041",
+    "skills": [
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      },
+      {
+        "id": "react",
+        "label": "React"
+      },
+      {
+        "id": "postgresql",
+        "label": "Postgresql"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_041_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "DE"
+      ],
+      "evidence_ids": [
+        "rev_demo_041_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Common Ground | Full stack developer | remote. Build community scheduling tools. Flexible hours and 30 days paid leave. Eligible countries: DE. typescript react postgresql",
+    "dimensions": {
+      "conditions": {
+        "score": 0.94,
+        "label": "Stated working conditions",
+        "evidence_ids": [
+          "rev_demo_041_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_041",
+    "source_url": "https://example.com/source/demo_041",
+    "description_text": "Common Ground | Full stack developer | remote. Build community scheduling tools. Flexible hours and 30 days paid leave. Eligible countries: DE.",
+    "evidence": [
+      {
+        "id": "rev_demo_041_p0",
+        "source_revision_id": "rev_demo_041",
+        "text": "Common Ground | Full stack developer | remote. Build community scheduling tools. Flexible hours and 30 days paid leave. Eligible countries: DE.",
+        "start": 0,
+        "end": 143
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_041",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_041_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build community scheduling tools. Flexible hours and 30 days paid leave.",
+      "evidence_ids": [
+        "rev_demo_041_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_042",
+    "advertisement_id": "ad_demo_042",
+    "opportunity_id": "opp_demo_042",
+    "company": {
+      "id": "company_5",
+      "name": "Orbit Tools"
+    },
+    "title": "Developer experience engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-08-20T00:00:00+00:00",
+    "expires_at": "2026-10-19T00:00:00+00:00",
+    "updated_at": "2026-08-20T00:00:00+00:00",
+    "source_revision_id": "rev_demo_042",
+    "content_version": "rev_demo_042",
+    "skills": [
+      {
+        "id": "go",
+        "label": "Go"
+      },
+      {
+        "id": "kubernetes",
+        "label": "Kubernetes"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "onsite",
+      "evidence_ids": [
+        "rev_demo_042_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Orbit Tools | Developer experience engineer | onsite. Own our build systems and improve developer workflows in our Austin office. Country eligibility is not stated. go kubernetes",
+    "dimensions": {
+      "ownership": {
+        "score": 0.94,
+        "label": "Stated ownership",
+        "evidence_ids": [
+          "rev_demo_042_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization",
+      "eligible_countries"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_042",
+    "source_url": "https://example.com/source/demo_042",
+    "description_text": "Orbit Tools | Developer experience engineer | onsite. Own our build systems and improve developer workflows in our Austin office. Country eligibility is not stated.",
+    "evidence": [
+      {
+        "id": "rev_demo_042_p0",
+        "source_revision_id": "rev_demo_042",
+        "text": "Orbit Tools | Developer experience engineer | onsite. Own our build systems and improve developer workflows in our Austin office. Country eligibility is not stated.",
+        "start": 0,
+        "end": 164
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_042",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_042_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Own our build systems and improve developer workflows in our Austin office.",
+      "evidence_ids": [
+        "rev_demo_042_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_043",
+    "advertisement_id": "ad_demo_043",
+    "opportunity_id": "opp_demo_043",
+    "company": {
+      "id": "company_6",
+      "name": "Moss Studio"
+    },
+    "title": "Product engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-08-19T00:00:00+00:00",
+    "expires_at": "2026-10-18T00:00:00+00:00",
+    "updated_at": "2026-08-19T00:00:00+00:00",
+    "source_revision_id": "rev_demo_043",
+    "content_version": "rev_demo_043",
+    "skills": [
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      },
+      {
+        "id": "react",
+        "label": "React"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_043_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "MX",
+        "US"
+      ],
+      "evidence_ids": [
+        "rev_demo_043_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Moss Studio | Product engineer | remote. Ship tools for independent creators. You will design, build, and maintain our editor. Eligible countries: MX, US. typescript react",
+    "dimensions": {
+      "specificity": {
+        "score": 0.94,
+        "label": "Specific responsibilities",
+        "evidence_ids": [
+          "rev_demo_043_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_043",
+    "source_url": "https://example.com/source/demo_043",
+    "description_text": "Moss Studio | Product engineer | remote. Ship tools for independent creators. You will design, build, and maintain our editor. Eligible countries: MX, US.",
+    "evidence": [
+      {
+        "id": "rev_demo_043_p0",
+        "source_revision_id": "rev_demo_043",
+        "text": "Moss Studio | Product engineer | remote. Ship tools for independent creators. You will design, build, and maintain our editor. Eligible countries: MX, US.",
+        "start": 0,
+        "end": 154
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_043",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_043_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Ship tools for independent creators. You will design, build, and maintain our editor.",
+      "evidence_ids": [
+        "rev_demo_043_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_044",
+    "advertisement_id": "ad_demo_044",
+    "opportunity_id": "opp_demo_044",
+    "company": {
+      "id": "company_7",
+      "name": "Signal Foundry"
+    },
+    "title": "Data engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-08-18T00:00:00+00:00",
+    "expires_at": "2026-10-17T00:00:00+00:00",
+    "updated_at": "2026-08-18T00:00:00+00:00",
+    "source_revision_id": "rev_demo_044",
+    "content_version": "rev_demo_044",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "sql",
+        "label": "Sql"
+      },
+      {
+        "id": "aws",
+        "label": "Aws"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_044_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "DE"
+      ],
+      "evidence_ids": [
+        "rev_demo_044_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Signal Foundry | Data engineer | remote. Build warehouse pipelines with clear data contracts. Learning budget and regular mentoring. Eligible countries: DE. python sql aws",
+    "dimensions": {
+      "learning": {
+        "score": 0.94,
+        "label": "Learning support",
+        "evidence_ids": [
+          "rev_demo_044_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_044",
+    "source_url": "https://example.com/source/demo_044",
+    "description_text": "Signal Foundry | Data engineer | remote. Build warehouse pipelines with clear data contracts. Learning budget and regular mentoring. Eligible countries: DE.",
+    "evidence": [
+      {
+        "id": "rev_demo_044_p0",
+        "source_revision_id": "rev_demo_044",
+        "text": "Signal Foundry | Data engineer | remote. Build warehouse pipelines with clear data contracts. Learning budget and regular mentoring. Eligible countries: DE.",
+        "start": 0,
+        "end": 156
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_044",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_044_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build warehouse pipelines with clear data contracts. Learning budget and regular mentoring.",
+      "evidence_ids": [
+        "rev_demo_044_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_045",
+    "advertisement_id": "ad_demo_045",
+    "opportunity_id": "opp_demo_045",
+    "company": {
+      "id": "company_8",
+      "name": "Cedar Health"
+    },
+    "title": "Multiple roles",
+    "role_kind": "multiple_roles",
+    "source_posted_at": "2026-08-17T00:00:00+00:00",
+    "expires_at": "2026-10-16T00:00:00+00:00",
+    "updated_at": "2026-08-17T00:00:00+00:00",
+    "source_revision_id": "rev_demo_045",
+    "content_version": "rev_demo_045",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      },
+      {
+        "id": "react",
+        "label": "React"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "hybrid",
+      "evidence_ids": [
+        "rev_demo_045_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Cedar Health | Multiple roles | hybrid. Hiring software and data engineers. Shared healthcare platform team; individual requirements vary. Country eligibility is not stated. python typescript react",
+    "dimensions": {
+      "specificity": {
+        "score": 0.94,
+        "label": "Specific responsibilities",
+        "evidence_ids": [
+          "rev_demo_045_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization",
+      "eligible_countries"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_045",
+    "source_url": "https://example.com/source/demo_045",
+    "description_text": "Cedar Health | Multiple roles | hybrid. Hiring software and data engineers. Shared healthcare platform team; individual requirements vary. Country eligibility is not stated.",
+    "evidence": [
+      {
+        "id": "rev_demo_045_p0",
+        "source_revision_id": "rev_demo_045",
+        "text": "Cedar Health | Multiple roles | hybrid. Hiring software and data engineers. Shared healthcare platform team; individual requirements vary. Country eligibility is not stated.",
+        "start": 0,
+        "end": 173
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_045",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_045_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Hiring software and data engineers. Shared healthcare platform team; individual requirements vary.",
+      "evidence_ids": [
+        "rev_demo_045_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_046",
+    "advertisement_id": "ad_demo_046",
+    "opportunity_id": "opp_demo_046",
+    "company": {
+      "id": "company_9",
+      "name": "Copper Cloud"
+    },
+    "title": "Infrastructure engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-08-16T00:00:00+00:00",
+    "expires_at": "2026-10-15T00:00:00+00:00",
+    "updated_at": "2026-08-16T00:00:00+00:00",
+    "source_revision_id": "rev_demo_046",
+    "content_version": "rev_demo_046",
+    "skills": [
+      {
+        "id": "go",
+        "label": "Go"
+      },
+      {
+        "id": "aws",
+        "label": "Aws"
+      },
+      {
+        "id": "kubernetes",
+        "label": "Kubernetes"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_046_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "MX",
+        "US"
+      ],
+      "evidence_ids": [
+        "rev_demo_046_p0"
+      ]
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Copper Cloud | Infrastructure engineer | remote. Operate a distributed storage service. Four-day week and flexible hours. Eligible countries: MX, US. go aws kubernetes",
+    "dimensions": {
+      "conditions": {
+        "score": 0.94,
+        "label": "Stated working conditions",
+        "evidence_ids": [
+          "rev_demo_046_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_046",
+    "source_url": "https://example.com/source/demo_046",
+    "description_text": "Copper Cloud | Infrastructure engineer | remote. Operate a distributed storage service. Four-day week and flexible hours. Eligible countries: MX, US.",
+    "evidence": [
+      {
+        "id": "rev_demo_046_p0",
+        "source_revision_id": "rev_demo_046",
+        "text": "Copper Cloud | Infrastructure engineer | remote. Operate a distributed storage service. Four-day week and flexible hours. Eligible countries: MX, US.",
+        "start": 0,
+        "end": 149
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_046",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_046_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Operate a distributed storage service. Four-day week and flexible hours.",
+      "evidence_ids": [
+        "rev_demo_046_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_047",
+    "advertisement_id": "ad_demo_047",
+    "opportunity_id": "opp_demo_047",
+    "company": {
+      "id": "company_10",
+      "name": "Lantern Maps"
+    },
+    "title": "Mobile engineer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-08-15T00:00:00+00:00",
+    "expires_at": "2026-10-14T00:00:00+00:00",
+    "updated_at": "2026-08-15T00:00:00+00:00",
+    "source_revision_id": "rev_demo_047",
+    "content_version": "rev_demo_047",
+    "skills": [
+      {
+        "id": "swift",
+        "label": "Swift"
+      },
+      {
+        "id": "typescript",
+        "label": "Typescript"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "onsite",
+      "evidence_ids": [
+        "rev_demo_047_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "stated",
+      "value": [
+        "DE"
+      ],
+      "evidence_ids": [
+        "rev_demo_047_p0"
+      ]
+    },
+    "compensation": {
+      "status": "stated",
+      "value": {
+        "original": "Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year."
+      },
+      "evidence_ids": [
+        "rev_demo_047_p0"
+      ]
+    },
+    "search_text": "Lantern Maps | Mobile engineer | onsite. Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year. Eligible countries: DE. swift typescript",
+    "dimensions": {
+      "transparency": {
+        "score": 0.94,
+        "label": "Compensation disclosed",
+        "evidence_ids": [
+          "rev_demo_047_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_047",
+    "source_url": "https://example.com/source/demo_047",
+    "description_text": "Lantern Maps | Mobile engineer | onsite. Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year. Eligible countries: DE.",
+    "evidence": [
+      {
+        "id": "rev_demo_047_p0",
+        "source_revision_id": "rev_demo_047",
+        "text": "Lantern Maps | Mobile engineer | onsite. Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year. Eligible countries: DE.",
+        "start": 0,
+        "end": 160
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_047",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_047_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Create offline mapping applications with our team in Mexico City. Salary: $90,000 USD per year.",
+      "evidence_ids": [
+        "rev_demo_047_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  },
+  {
+    "id": "demo_048",
+    "advertisement_id": "ad_demo_048",
+    "opportunity_id": "opp_demo_048",
+    "company": {
+      "id": "company_11",
+      "name": "Paperplane"
+    },
+    "title": "Backend developer",
+    "role_kind": "single_role",
+    "source_posted_at": "2026-08-14T00:00:00+00:00",
+    "expires_at": "2026-10-13T00:00:00+00:00",
+    "updated_at": "2026-08-14T00:00:00+00:00",
+    "source_revision_id": "rev_demo_048",
+    "content_version": "rev_demo_048",
+    "skills": [
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "postgresql",
+        "label": "Postgresql"
+      }
+    ],
+    "work_mode": {
+      "status": "stated",
+      "value": "remote",
+      "evidence_ids": [
+        "rev_demo_048_p0"
+      ]
+    },
+    "eligible_countries": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "compensation": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "search_text": "Paperplane | Backend developer | remote. Build document collaboration APIs. Equivalent experience and career transitions are welcome. Country eligibility is not stated. python postgresql",
+    "dimensions": {
+      "adjacent": {
+        "score": 0.94,
+        "label": "Adjacent experience welcome",
+        "evidence_ids": [
+          "rev_demo_048_p0"
+        ]
+      }
+    },
+    "unknowns": [
+      "visa_sponsorship",
+      "work_authorization",
+      "eligible_countries"
+    ],
+    "screening": {
+      "status": "passed",
+      "rubric_version": "fixture-only"
+    },
+    "canonical_url": "https://example.com/jobs/demo_048",
+    "source_url": "https://example.com/source/demo_048",
+    "description_text": "Paperplane | Backend developer | remote. Build document collaboration APIs. Equivalent experience and career transitions are welcome. Country eligibility is not stated.",
+    "evidence": [
+      {
+        "id": "rev_demo_048_p0",
+        "source_revision_id": "rev_demo_048",
+        "text": "Paperplane | Backend developer | remote. Build document collaboration APIs. Equivalent experience and career transitions are welcome. Country eligibility is not stated.",
+        "start": 0,
+        "end": 168
+      }
+    ],
+    "application_links": [
+      {
+        "url": "https://example.com/apply/demo_048",
+        "label": "Example application (not a real job)",
+        "evidence_ids": [
+          "rev_demo_048_p0"
+        ]
+      }
+    ],
+    "responsibilities": {
+      "status": "stated",
+      "value": "Build document collaboration APIs. Equivalent experience and career transitions are welcome.",
+      "evidence_ids": [
+        "rev_demo_048_p0"
+      ]
+    },
+    "experience": {
+      "status": "unknown",
+      "value": null,
+      "evidence_ids": []
+    },
+    "availability": "not_confirmed",
+    "observations": [],
+    "related": []
+  }
+]

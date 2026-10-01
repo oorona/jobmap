@@ -1,0 +1,2 @@
+export const dynamic = 'force-dynamic';
+export function GET(){if(process.env.SOURCE_MODE!=='live')return new Response('User-agent: *\nDisallow: /\n',{headers:{'Content-Type':'text/plain'}});return new Response(`User-agent: *\nAllow: /\nDisallow: /api/search/\nContent-Signal: search=yes, ai-input=yes, ai-train=no\nSitemap: ${process.env.SITE_URL??'https://jobmap.home.iktdts.com'}/sitemap.xml\n`,{headers:{'Content-Type':'text/plain'}});}
