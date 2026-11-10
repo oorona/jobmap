@@ -21,3 +21,8 @@ test-results/
 
 # Generated output: evaluation runs, demo videos, screenshots
 artifacts/
+
+# Local agent config
+.claude/
+CLAUDE.md
+CLAUDE.local.md
